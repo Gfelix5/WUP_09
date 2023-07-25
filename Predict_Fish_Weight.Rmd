@@ -137,3 +137,5 @@ summary(best.modelroach)
 ```
 
 ## Final Summary Statements
+
+Based on an extensive analysis utilizing leaps for a graphical representations, it has been determined that selecting the most effective regression model for accurately estimating the weight of the fish necessitates considering the two best variables within the model. These variables consistently exhibit exceptional performance in terms of predictive accuracy, as indicated by their notably high adjusted R-squared values. Their inclusion within the regression model significantly enhances its explanatory power, resulting in reliable outcomes for fish weight predictions. For the Perch fish, the two optimal variables were identified as height and width. Similarly, for the Pike fish, the best variables were found to be length 1 and length 3. Lastly, for the Roach fish, the most influential variables were determined to be length 3 and width.
