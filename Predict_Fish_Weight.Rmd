@@ -53,7 +53,7 @@ Whitefish <- select(Whitefish, -Species)
 
 ### Best Models
 
-### Best Two regressor model
+
 
 ```{r}
 regsubsets.out <-
@@ -69,12 +69,15 @@ as.data.frame(summary.out$outmat)
 subsets(regsubsets.out,statistic="adjr2",legend="topright",main="Adjusted R^2")
 ```
 
+### Best Two regressor model
+
+
 ```{r}
 best.model <- lm(Weight~Height+Width,data=Perch)
 summary(best.model)
 ```
 
-
+The optimal approach for determining the weight of a perch fish involves employing the most influential components within the regression model. In this instance, the Perch fish exhibits an adjusted R-squared value of 0.94, achieved through the refinement of the analysis to encompass solely the dimensions of height and width.
 
 ## Pike
 
